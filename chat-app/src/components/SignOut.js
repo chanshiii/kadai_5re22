@@ -8,7 +8,7 @@ function SignOut() {
     <div className="header">
         <Button 
         style={{color : "white", fontSize: "15px" }}
-        onClick={() => auth.SignOut()}
+        onClick={() => auth.signOut()}
         >
          サインアウト
          </Button>
